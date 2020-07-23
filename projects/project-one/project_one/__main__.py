@@ -6,4 +6,3 @@ def main():
     logger = get_logger(__name__)
     logger.info("hello project one!")
     lib_one_main()
-
