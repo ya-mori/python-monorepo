@@ -1,3 +1,6 @@
+from logger.logger import get_logger
+
 
 def main():
-    print("hello lib one")
+    logger = get_logger(__name__)
+    logger.info("hello lib one")
