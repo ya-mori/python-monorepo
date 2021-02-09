@@ -6,7 +6,7 @@ authors = ["ya-mori <ppap.yohei.moriya@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-lib-one = {path = "../../libs/lib-one"}
+lib-one = {path = "../../libs/lib-one", develop=true}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
