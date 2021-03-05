@@ -202,35 +202,6 @@ pep8 = ["flake8"]
 tests = ["pandas", "pillow", "tensorflow", "keras", "pytest", "pytest-xdist", "pytest-cov"]
 
 [[package]]
-name = "lib-one"
-version = "0.1.0"
-description = ""
-category = "main"
-optional = false
-python-versions = "^3.7"
-develop = false
-
-[package.source]
-type = "directory"
-url = "../../libs/lib-one"
-
-[[package]]
-name = "lib-two"
-version = "0.1.0"
-description = ""
-category = "main"
-optional = false
-python-versions = "^3.7"
-develop = false
-
-[package.dependencies]
-tensorflow = "^2.4.1"
-
-[package.source]
-type = "directory"
-url = "../../libs/lib-two"
-
-[[package]]
 name = "markdown"
 version = "3.3.4"
 description = "Python implementation of Markdown."
@@ -570,7 +541,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "e5f5d2766489e89005d3f6625cd31f8161164aae59ae150c9abe5ea17df3f559"
+content-hash = "f0cae7fd4400a99a6a0e7c75b274f4b4e519c0c49356d9189bf637efb49d3ffc"
 
 [metadata.files]
 absl-py = [
@@ -710,8 +681,6 @@ keras-preprocessing = [
     {file = "Keras_Preprocessing-1.1.2-py2.py3-none-any.whl", hash = "sha256:7b82029b130ff61cc99b55f3bd27427df4838576838c5b2f65940e4fcec99a7b"},
     {file = "Keras_Preprocessing-1.1.2.tar.gz", hash = "sha256:add82567c50c8bc648c14195bf544a5ce7c1f76761536956c3d2978970179ef3"},
 ]
-lib-one = []
-lib-two = []
 markdown = [
     {file = "Markdown-3.3.4-py3-none-any.whl", hash = "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"},
     {file = "Markdown-3.3.4.tar.gz", hash = "sha256:31b5b491868dcc87d6c24b7e3d19a0d730d59d3e46f4eea6430a321bed387a49"},
