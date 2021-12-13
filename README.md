@@ -11,15 +11,8 @@ I am using poetry to manage my dependencies.
 ```
 .
 ├── README.md
-├── libs
-│   ├── lib-one
-│   └── logger
-├── poetry.lock
-├── projects
-│   ├── __init__.py
-│   ├── project-one
-│   └── project-two
-└── pyproject.toml
+├── sample_1  # Sample of using a home-grown library in multiple projects
+└── sample_2  # Sample multi-projects like Maven and Gradle in Java 
 ```
 
 

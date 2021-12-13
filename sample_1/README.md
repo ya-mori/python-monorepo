@@ -2,7 +2,7 @@
 
 ## project setup
 
-you have to install poetry 1.0.8 version
+you have to install poetry 1.1.12 version
 
 ```bash
 cd python-monorepo/sample_1

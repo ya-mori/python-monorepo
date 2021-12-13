@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "monorepo_sample"
+version = "0.1.0"
+description = ""
+authors = ["ya-mori <ppap.yohei.moriya@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+api = {path = "api", develop = true}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
